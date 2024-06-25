@@ -1,0 +1,60 @@
+.currency-div{
+ display: flex;   
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-start;
+ margin-top: 10px;
+ width: 500px;
+ margin-top: 50px;
+ height: 250px;
+ border: 1px solid black;
+}
+
+.amount{
+   width: 80px ;
+   height: 25px;
+   margin-right: 10px;
+}
+
+.from-currency-option{
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.to-currency-option{
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.result{
+    width: 80px ;
+    height: 25px;
+    margin-right: 10px;
+ }
+
+ .exchange-button{
+    border: none;
+    width: 75px;
+    margin-top: 33px;
+    height: 33px;
+    color: white;
+    background-color: #f44336;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.1s;
+    
+ }
+
+ .exchange-button:hover{
+   background-color: #d32f2f; /* Daha koyu kırmızı */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .exchange-button:active {
+   background-color: #b71c1c; /* En koyu kırmızı */
+   transform: scale(0.95); /* Butonu hafifçe küçültme efekti */
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+ }
